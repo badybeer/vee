@@ -21,8 +21,8 @@
     </head>
     <body>
         <div id="app">
-            <Admin :user="{{auth()->user()}}"></Admin>
-            
+            {{--<Admin :user="{{auth()->user()}}"></Admin>--}}
+
         </div>
     </body>
 </html>
